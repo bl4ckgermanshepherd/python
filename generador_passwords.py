@@ -1,4 +1,5 @@
 #Today I learn how to make random passwords, how to encrypt and how to check if a string match with a hash
+#The encryption will wive you the password and the hash at the same time like this "{>kXds%=+*72<Ky}.t;¿ --> pbkdf2:sha256:260000$35XRJ86F0rDeIt87$fa897cc65120f956dd4a2db441a469fbd5a10666fce610ce366e5813d0f54c1a".
 
 import random
 
