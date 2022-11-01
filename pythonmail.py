@@ -14,7 +14,7 @@ def main():
  mime_message = MIMEText(message)
  mime_message["From"] = from_address
  mime_message["To"] = to_address
- mime_message["Subject"] = "Correo de prueba"
+ mime_message["Subject"] = "Example subject"
  smtp = SMTP("smtp.gmail.com", 587)
  smtp.ehlo()
  smtp.starttls()
